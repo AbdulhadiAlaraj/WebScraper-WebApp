@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile.fastapi
+    volumes:
+      - ./output:/app/data
+    ports:
+      - "8000:8000"
+    networks:
+      - webnet
+
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8501:8501"
+    depends_on:
+      - fastapi
+    networks:
+      - webnet
+
+networks:
+  webnet:
