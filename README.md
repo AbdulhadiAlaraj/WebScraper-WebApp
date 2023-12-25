@@ -2,7 +2,9 @@
 
 ## Overview
 
-This application is a web scraping tool that allows users to specify a URL and parameters for scraping web content. It uses a FastAPI backend for handling scraping logic and a Streamlit frontend for user interaction. The application is containerized using Docker for easy setup and deployment.
+This application is a web scraping tool that allows users to specify a URL and parameters for scraping web content. It uses a FastAPI backend for handling scraping logic and a Streamlit frontend for user interaction. The application is containerized using Docker for easy setup and deployment. 
+
+Go to https://github.com/AbdulhadiAlaraj/WebScraper for more details on the scraper.
 
 ## Features
 
