@@ -23,9 +23,8 @@ class WebScraper:
                 response = await client.get(url)
                 response.raise_for_status()
                 return response.text
-        except httpx.RequestException as e:
-            print(f"Request failed: {e}")
-            return None
+        except:
+            pass
 
     def fetch_robots_txt(self):
         self.robot_parser.set_url(urljoin(self.start_url, "/robots.txt"))
