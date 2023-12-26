@@ -23,7 +23,7 @@ Go to https://github.com/AbdulhadiAlaraj/WebScraper for more details on the scra
 
 1. **Clone the repository**
 ``` bash
-git clone https://github.com/yourusername/WebScraper-WebApp.git
+git clone https://github.com/AbdulhadiAlaraj/WebScraper-WebApp.git
 cd WebScraper-WebApp
 ```
 2. **Build and Run with Docker Compose**
